@@ -17,5 +17,9 @@ Verify Dashboard page after Login
 *** Keywords ***
 Verify it is Dashboard
     Sleep   3s
-    Element should be visible     xpath://img[@src='img/Profile.jpg']
+    Element should be visible     ${ProfileImage}
     Element should be enabled     xpath://button[contains(text(),'View Me')]
+
+
+Verify form Data
+    
