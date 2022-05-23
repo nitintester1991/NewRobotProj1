@@ -1,0 +1,5 @@
+venv/
+.idea/
+TestCases/*.log
+TestCases/*.html
+TestCases/*.xml
